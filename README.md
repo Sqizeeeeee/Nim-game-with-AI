@@ -8,6 +8,8 @@ Nim is a mathematical strategy game where two players take turns removing one or
 
 This AI plays Nim in the terminal and always tries to make the best moves based on its training.
 
+Wins a player, who made tha last move
+
 ## Features
 
 - AI trained on 10,000,000 self-play games

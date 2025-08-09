@@ -65,11 +65,12 @@ class Nim():
 
         # Update pile
         self.piles[pile] -= count
-        self.switch_player()
 
         # Check for a winner
         if all(pile == 0 for pile in self.piles):
             self.winner = self.player
+        else:
+            self.switch_player()
 
 
 class NimAI():
